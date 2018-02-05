@@ -1,2 +1,2 @@
 # warsimple
-A simple game for war craft
+A simple game for war craft.
