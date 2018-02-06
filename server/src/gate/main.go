@@ -6,24 +6,23 @@ import (
 )
 
 var (
+	buildstamp string
+	githash    string
+)
+
+var (
 	cfg     string
 	version bool
 )
+
+func showVersion() {
+	glog.Infof("Git Commit Hash: %v\tBuild Time:%v\n", githash, buildstamp)
+}
 
 func init() {
 	flag.StringVar(&cfg, "config", "cfg.json", "config file")
 	flag.BoolVar(&version, "version", false, "show version")
 }
-
-var (
-	buildstamp string
-	githash    string
-)
-
-func showVersion() {
-	glog.Info("Git Commit Hash: %v\tBuild Time:%v\n", githash, buildstamp)
-}
-
 
 func main() {
 	flag.Parse()
