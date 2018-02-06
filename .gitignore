@@ -1,0 +1,6 @@
+
+server/bin/
+server/pkg/
+server/src/vendor/*/
+server/.idea/
+server/.cache/

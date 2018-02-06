@@ -1,0 +1,10 @@
+{
+  "listen": ":9030",
+  "http": ":9038",
+  "rpc": ":7000",
+  "rpc_addr": ":7000",
+  "debug": true,
+  "tls": false,
+  "platform_url": "http://120.92.234.2:10009/Intranet/",
+  "endpoints": ["localhost:2379"]
+}
