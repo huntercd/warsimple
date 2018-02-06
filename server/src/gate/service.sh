@@ -12,10 +12,10 @@ export CLIENT_PRIVATE_KEY=$cwd/key/client_private_key.pem
 export SERVER_PUBLIC_KEY=$cwd/key/server_public.pem
 export SERVER_PRIVATE_KEY=$cwd/key/server_private.key
 
-export GAME_WEB_CERT_FILE=$cwd/key/gameweb.qyq.xoyo.pem
-export GAME_WEB_KEY_FILE=$cwd/key/gameweb.qyq.xoyo.key
+export GAME_WEB_CERT_FILE=$cwd/key/gameweb.abc.pem
+export GAME_WEB_KEY_FILE=$cwd/key/gameweb.abc.key
 
-export ROBOT_KEY=4842e8023d991410547bc971ea39e656
+export ROBOT_KEY=abcdefg123456
 
 function check_pid() {
 	if [ -f $exePid ];then

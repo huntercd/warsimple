@@ -5,6 +5,6 @@
   "rpc_addr": ":7000",
   "debug": true,
   "tls": false,
-  "platform_url": "http://120.92.234.2:10009/Intranet/",
+  "platform_url": "http://1.2.3.4:10001/proc/",
   "endpoints": ["localhost:2379"]
 }
